@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moth pupa | Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Moth pupa</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Баннер на главной -->
+        <section class="hero">
+            <h2>Новая коллекция уже здесь</h2>
+            <p>Открой для себя минималистичный дизайн и комфорт в каждой детали.</p>
+            <a href="catalog.html" class="btn">Перейти в каталог</a>
+        </section>
+
+        <!-- Преимущества -->
+        <section class="advantages">
+            <h2>Почему выбирают нас</h2>
+            <div class="advantages-grid">
+                <div class="card">
+                    <h3>Качество</h3>
+                    <p>Только проверенные ткани и надежные швы.</p>
+                </div>
+                <div class="card">
+                    <h3>Доставка</h3>
+                    <p>Быстрая доставка по всей стране.</p>
+                </div>
+                <div class="card">
+                    <h3>Стиль</h3>
+                    <p>Уникальный крой, который подчеркнет вашу индивидуальность.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Витрина товаров (id="hits" для якорной ссылки) -->
+        <section class="featured" id="hits">
+            <h2>Хиты продаж</h2>
+            <div class="products-grid">
+                <!-- Карточка 1: Лонгслив -->
+                <div class="product-card">
+                    <img src="long.jpg" alt="Белый лонгслив" class="product-card__img">
+                    <h3 class="product-card__title">Белый лонгслив</h3>
+                    <p class="product-card__price">7000 руб.</p>
+                </div>
+                
+                <!-- Карточка 2: Худи (с бейджем) -->
+                <div class="product-card">
+                    <span class="product-badge">Хит</span>
+                    <img src="hoodie.jpg" alt="Оверсайз худи" class="product-card__img">
+                    <h3 class="product-card__title">Оверсайз худи</h3>
+                    <p class="product-card__price">13000 руб.</p>
+                </div>
+
+                <!-- Карточка 3: Штаны -->
+                <div class="product-card">
+                    <img src="pants.jpg" alt="Спортивные штаны" class="product-card__img">
+                    <h3 class="product-card__title">Спортивные штаны</h3>
+                    <p class="product-card__price">8000 руб.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Moth pupa. Все права защищены.</p>
+        <a href="#hits" class="anchor-link">↑ Вернуться к хитам продаж</a>
+    </footer>
+</body>
+</html>
