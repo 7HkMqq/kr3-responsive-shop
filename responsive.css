@@ -8,7 +8,7 @@
 }
 
 /* Мобильные телефоны (ширина до 768px) */
-{@media (max-width: 768px) {
+@media (max-width: 768px) {
     /* Адаптируем шапку сайта */
     header {
         flex-direction: column; /* Ставим логотип и меню друг под другом */
